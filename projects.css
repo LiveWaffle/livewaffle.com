@@ -71,6 +71,7 @@ a {
         width:100%;
       }
       .section-title {
+        border-radius: 5px;
         text-align:center;
         font-weight:bold;
         padding-top:5px;
@@ -81,3 +82,4 @@ a {
         font-family: 'ArcadeClassic', sans-serif;
         border-bottom:1px solid var(--dkest-color);
       }
+    
