@@ -1,0 +1,37 @@
+@import url('https://fonts.cdnfonts.com/css/arcade-classic');
+:root {
+--dk-color: #38a3a5;
+--mid-color: #80ed99;
+--lt-color: #c7f9cc;
+--dkest-color: #207c54;
+--accent: #148d4a;
+}
+.layout {
+width: 1366px;
+height: 768px;
+
+display: grid;
+grid-template-rows: repeat(3, 1fr);
+grid-template-columns: repeat(3, 1fr);
+gap: 8px;
+}
+
+body {
+background-image: url(bacjground.png);
+background-repeat:repeat;
+
+
+}
+.main-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #c7f9cc;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+p {
+font-family: 'ArcadeClassic', sans-serif;
+color: var(--dkest-color);
+}
