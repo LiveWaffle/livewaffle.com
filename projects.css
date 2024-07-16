@@ -50,3 +50,30 @@ a {
     font-family: 'ArcadeClassic', sans-serif;
     color: var(--dkest-color);
     }
+
+    #left-sidebar {
+        border-radius: 15px;
+        width:197px;
+        border:1px solid var(--dkest-color);
+        height:auto;
+        border-right:none;
+        background-color:var(--lt-color);
+        overflow:auto;
+    }
+    .wrapper {
+        display:flex;
+        flex-wrap:wrap;
+        height:auto;
+        width:100%;
+      }
+      .section-title {
+        text-align:center;
+        font-weight:bold;
+        padding-top:5px;
+        padding-bottom:5px;
+        background-color:var(--mid-color);
+        color:var(--dkest-color);
+        font-size:15px;
+        font-family: 'ArcadeClassic', sans-serif;
+        border-bottom:1px solid var(--dkest-color);
+      }
