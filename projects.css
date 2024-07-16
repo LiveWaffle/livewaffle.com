@@ -52,13 +52,17 @@ a {
     }
 
     #left-sidebar {
-        border-radius: 15px;
+        border-radius: 5px;
         width:197px;
         border:1px solid var(--dkest-color);
         height:auto;
         border-right:none;
-        background-color:var(--lt-color);
+        background-color:var(#c7f9cc);
         overflow:auto;
+        font-family: 'ArcadeClassic', sans-serif;
+        color: var(--dkest-color);
+
+
     }
     .wrapper {
         display:flex;
