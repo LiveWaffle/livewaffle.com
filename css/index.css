@@ -15,7 +15,7 @@ html, body {
   font-family: 'ArcadeClassic', sans-serif;
   font-size:18px;
   /*background-color: #96c6b6;*/
-  background-image: url(bacjground.png);
+  background-image: url(/images/squiggly.png);
   background-repeat:repeat;
   color:var(--dkest-color);
   padding:1px;
